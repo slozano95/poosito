@@ -363,16 +363,16 @@ public class TestGUIrestaurante extends JFrame {
 		JLabel lblIngredientes_1 = new JLabel("Ingredientes");
 		panel_5.add(lblIngredientes_1, BorderLayout.NORTH);
 		
-		JPanel panel_6 = new JPanel();
-		panel_6.setBorder(new EmptyBorder(20, 20, 20, 20));
-		tabbedPane.addTab("New tab", null, panel_6, null);
-		panel_6.setLayout(new BorderLayout(0, 0));
+		JPanel menu = new JPanel();
+		menu.setBorder(new EmptyBorder(20, 20, 20, 20));
+		tabbedPane.addTab("New tab", null, menu, null);
+		menu.setLayout(new BorderLayout(0, 0));
 		
 		JLabel lblMenu = new JLabel("Menu");
-		panel_6.add(lblMenu, BorderLayout.NORTH);
+		menu.add(lblMenu, BorderLayout.NORTH);
 		
 		JPanel panel_7 = new JPanel();
-		panel_6.add(panel_7, BorderLayout.SOUTH);
+		menu.add(panel_7, BorderLayout.SOUTH);
 		panel_7.setLayout(new GridLayout(1, 0, 0, 0));
 		
 		JLabel lblNewLabel_5 = new JLabel("");
@@ -385,7 +385,7 @@ public class TestGUIrestaurante extends JFrame {
 		panel_7.add(btnRegresar);
 		
 		JScrollPane scrollPane_3 = new JScrollPane();
-		panel_6.add(scrollPane_3, BorderLayout.CENTER);
+		menu.add(scrollPane_3, BorderLayout.CENTER);
 
 
 
