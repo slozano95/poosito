@@ -1,0 +1,18 @@
+--Reporte PlatoDiario
+Ingrediente: Verdolaga
+Dia: ju
+Inventario: 12
+
+#PlatoOrdenado
+A
+C
+A
+C
+C
+
+#Plato-----------------------------#CantidadPreparar
+A		3
+C		12
+A		3
+C		12
+C		12
